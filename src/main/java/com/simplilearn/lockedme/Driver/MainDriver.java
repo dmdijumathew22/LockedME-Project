@@ -1,6 +1,6 @@
-package com.simplilearn.lockedme.Driver;
+package com.simplilearn.lockedme.driver;
 
-import com.simplilearn.lockedme.Controller.OperationsController;
+import com.simplilearn.lockedme.controller.OperationsController;
 
 public class MainDriver {
 

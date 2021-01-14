@@ -1,8 +1,8 @@
-package com.simplilearn.lockedme.Controller;
+package com.simplilearn.lockedme.controller;
 
 import java.util.Scanner;
 
-import com.simplilearn.lockedme.FileOperations.FileOperations;
+import com.simplilearn.lockedme.fileoperations.FileOperations;
 
 public class OperationsController {
 	private static Scanner scanner;
@@ -54,10 +54,13 @@ public class OperationsController {
 			FileOperations.addAFile();
 			break;
 		case "2":
+			FileOperations.deleteFile();
 			break;
 		case "3":
+			FileOperations.searchFile();
 			break;
 		case "4":
+			mainMenu();
 			break;
 		}
 		FileOperations.showFileOperations();
